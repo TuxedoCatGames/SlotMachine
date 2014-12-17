@@ -13,6 +13,8 @@
 		E1A453151A41D4C2007F6428 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A453141A41D4C2007F6428 /* Images.xcassets */; };
 		E1A453181A41D4C2007F6428 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A453161A41D4C2007F6428 /* LaunchScreen.xib */; };
 		E1A453241A41D4C2007F6428 /* SlotMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A453231A41D4C2007F6428 /* SlotMachineTests.swift */; };
+		E1A4532E1A41F9DC007F6428 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A4532D1A41F9DC007F6428 /* Slot.swift */; };
+		E1A453301A4216B1007F6428 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A4532F1A4216B1007F6428 /* Factory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		E1A4531D1A41D4C2007F6428 /* SlotMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A453221A41D4C2007F6428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A453231A41D4C2007F6428 /* SlotMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineTests.swift; sourceTree = "<group>"; };
+		E1A4532D1A41F9DC007F6428 /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
+		E1A4532F1A4216B1007F6428 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				E1A453141A41D4C2007F6428 /* Images.xcassets */,
 				E1A453161A41D4C2007F6428 /* LaunchScreen.xib */,
 				E1A4530B1A41D4C2007F6428 /* Supporting Files */,
+				E1A4532D1A41F9DC007F6428 /* Slot.swift */,
+				E1A4532F1A4216B1007F6428 /* Factory.swift */,
 			);
 			path = SlotMachine;
 			sourceTree = "<group>";
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A453301A4216B1007F6428 /* Factory.swift in Sources */,
 				E1A453101A41D4C2007F6428 /* ViewController.swift in Sources */,
+				E1A4532E1A41F9DC007F6428 /* Slot.swift in Sources */,
 				E1A4530E1A41D4C2007F6428 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
